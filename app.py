@@ -5,6 +5,8 @@ from typing import List
 from enum import StrEnum
 from openai import AzureOpenAI
 import os
+from enum import Enum
+
 
 
 class NoteNames(StrEnum):
